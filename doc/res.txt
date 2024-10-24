@@ -1,0 +1,56 @@
+smart-mirror@smartmirror-desktop:~/mobileCV_public/lab3/src/lab4$ python3 lab4.py 
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-lvckpx0m because the default path (/home/smart-mirror/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/home/smart-mirror/.local/lib/python3.6/site-packages/torchvision/io/image.py:11: UserWarning: Failed to load image Python extension: 
+  warn(f"Failed to load image Python extension: {e}")
+Using regular ResNet18 model.
+No existing TRT model found, proceeding with regular model.
+Model load time: 14.69 seconds
+Starting image processing...
+Image processing time: 23.55 seconds
+Memory allocated: 46861312 bytes
+
+smart-mirror@smartmirror-desktop:~/mobileCV_public/lab3/src/lab4$ python3 lab4.py --trt
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-3qd9t7op because the default path (/home/smart-mirror/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/home/smart-mirror/.local/lib/python3.6/site-packages/torchvision/io/image.py:11: UserWarning: Failed to load image Python extension: 
+  warn(f"Failed to load image Python extension: {e}")
+Optimizing model with TensorRT...
+Model load time: 96.37 seconds
+Starting image processing...
+Image processing time: 3.20 seconds
+Memory allocated: 47463424 bytes
+
+MORE
+
+smart-mirror@smartmirror-desktop:~/mobileCV_public/lab3/src/lab4$ python3 lab4.py --trt
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-86hr5alo because the default path (/home/smart-mirror/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/home/smart-mirror/.local/lib/python3.6/site-packages/torchvision/io/image.py:11: UserWarning: Failed to load image Python extension: 
+  warn(f"Failed to load image Python extension: {e}")
+Optimizing model with TensorRT...
+Model load time: 105.01 seconds
+Starting image processing...
+Image processing time: 3.66 seconds
+Memory allocated: 47463424 bytes
+
+
+WITGH SAVE
+smart-mirror@smartmirror-desktop:~/mobileCV_public/lab3/src/lab4$ python3 lab4.py --trt
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-iha2gdd4 because the default path (/home/smart-mirror/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/home/smart-mirror/.local/lib/python3.6/site-packages/torchvision/io/image.py:11: UserWarning: Failed to load image Python extension: 
+  warn(f"Failed to load image Python extension: {e}")
+Optimizing model with TensorRT...
+Model load time: 125.50 seconds
+Starting image processing...
+Image processing time: 12.30 seconds
+Memory allocated: 47463424 bytes
+
+smart-mirror@smartmirror-desktop:~/mobileCV_public/lab3/src/lab4$ python3 lab4.py --trt
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-41zyiha0 because the default path (/home/smart-mirror/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/home/smart-mirror/.local/lib/python3.6/site-packages/torchvision/io/image.py:11: UserWarning: Failed to load image Python extension: 
+  warn(f"Failed to load image Python extension: {e}")
+Loaded existing TensorRT model.
+Model load time: 12.48 seconds
+Starting image processing...
+Image processing time: 44.27 seconds
+Memory allocated: 0 bytes
+
+
